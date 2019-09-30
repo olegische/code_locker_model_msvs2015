@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm11="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="366dc5dc-1be3-4faf-9609-db076b5a6365" name="UMLUseCaseDiagram1" linkedPackageId="c74e1b11-6c2e-49a1-ab6e-ddc577d13917" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="fd329e8c-cf27-4406-bc41-be669935170d">
+      <profileInstance Id="17b2d942-f49a-46dc-9acd-8683417da833" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="75ab73eb-5ac2-48b5-a552-b85e16d3f82f">
+      <profileInstance Id="5b351c2c-1e39-439d-a026-2a827a1dbbcb" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="e074371c-adbe-4420-a0b0-2babebba2e8c" name="user" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0b4e73f2-2e18-48fe-8533-3efa65fbe49d" />
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="35284856-d521-4b93-955d-d4e68da0e82f" name="guard" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9ffe69ba-93c4-497c-aa39-d664d32e88e6" />
+      </actor>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="c74e1b11-6c2e-49a1-ab6e-ddc577d13917" name="ModelingProject1">
+    <elementDefinition Id="4c8a33fe-b87f-4269-aee6-dd2518519460" />
+  </package>
+</useCaseModelRoot>
