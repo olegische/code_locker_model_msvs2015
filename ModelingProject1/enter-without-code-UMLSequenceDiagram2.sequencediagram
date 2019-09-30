@@ -19,10 +19,46 @@
       <interaction Id="faeb8d64-52d7-4c47-b179-7e70da2b30a8" name="Sequence2" collapseFragmentsFlag="false" isActiveClass="false" isAbstract="false" isLeaf="false" isReentrant="false">
         <elementDefinition Id="435cab3e-690c-4cd5-a302-d39e111c73a9" />
         <lifelines>
-          <lifeline Id="ddc7c25b-d1bf-4c1e-a837-822c2fa96679" name="user panel : user panel" isActor="false" lifelineDisplayName="user panel : user panel">
+          <lifeline Id="f5a6ec14-b95c-4e4f-b894-6d2dbb572b19" name="user : User" isActor="true" lifelineDisplayName="user : User">
+            <elementDefinition Id="8d151c8e-272f-40c3-9a72-5fe1853ab951" />
+            <represents>
+              <propertyMoniker Id="b3b6daae-e266-4521-89f7-6a895e338fd4" />
+            </represents>
+          </lifeline>
+          <lifeline Id="ddc7c25b-d1bf-4c1e-a837-822c2fa96679" name="userPanel : UserPanel" isActor="false" lifelineDisplayName="userPanel : UserPanel">
             <elementDefinition Id="a14eceb8-cc67-43bd-aba1-ffa85f752c10" />
             <represents>
               <propertyMoniker Id="d2e6bd0a-617c-44a2-a0dd-0fe26f248e3e" />
+            </represents>
+          </lifeline>
+          <lifeline Id="d9059496-7e3f-4b15-9719-70af2af9dc21" name="sound : Sound" isActor="false" lifelineDisplayName="sound : Sound">
+            <elementDefinition Id="319adc29-9d73-43e9-b0bb-5120bfc1b030" />
+            <represents>
+              <propertyMoniker Id="c1971c1f-40cd-4345-8b37-09057d7ff4c7" />
+            </represents>
+          </lifeline>
+          <lifeline Id="28ad4933-64f2-4342-9709-d660f78cb08f" name="locker : Locker" isActor="false" lifelineDisplayName="locker : Locker">
+            <elementDefinition Id="a6861d7a-af23-4aca-9a0b-b46157d7fa72" />
+            <represents>
+              <propertyMoniker Id="84084dc0-a8f7-4443-988d-207aed376097" />
+            </represents>
+          </lifeline>
+          <lifeline Id="884b4919-bfe7-4a5f-af85-615d7839d1ab" name="micro : Micro" isActor="false" lifelineDisplayName="micro : Micro">
+            <elementDefinition Id="8b249872-e603-4c42-ba7f-027b0cdd5299" />
+            <represents>
+              <propertyMoniker Id="670d6f0a-a409-4cff-be85-2e563eed8d6f" />
+            </represents>
+          </lifeline>
+          <lifeline Id="713e8218-a698-4f03-b91c-c10dd91381ca" name="guardPanel : GuardPanel" isActor="false" lifelineDisplayName="guardPanel : GuardPanel">
+            <elementDefinition Id="4fd42b1b-fee1-47d7-9c2a-7893d7c2a14a" />
+            <represents>
+              <propertyMoniker Id="8dcdda31-94d1-4ecd-a840-e566f8d50cd5" />
+            </represents>
+          </lifeline>
+          <lifeline Id="ccacffe0-5fb3-45e7-90fc-bc363bcc1eee" name="guard : Guard" isActor="true" lifelineDisplayName="guard : Guard">
+            <elementDefinition Id="eebaaf47-f5f4-4114-9df5-91cf5e7c3f7e" />
+            <represents>
+              <propertyMoniker Id="8e35b79e-cbac-4518-9207-d1606a359ce0" />
             </represents>
           </lifeline>
         </lifelines>
@@ -33,15 +69,81 @@
           <property Id="d2e6bd0a-617c-44a2-a0dd-0fe26f248e3e" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="b3368d11-f51a-426c-b705-758d89b0c3fa" />
             <type_NamedElement>
-              <referencedTypeMoniker Id="aa3b7105-5dc4-48e6-950c-ce1482318e59" LastKnownName="user panel" />
+              <referencedTypeMoniker Id="aa3b7105-5dc4-48e6-950c-ce1482318e59" LastKnownName="UserPanel" />
+            </type_NamedElement>
+          </property>
+          <property Id="8e35b79e-cbac-4518-9207-d1606a359ce0" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="15a3a036-f2eb-4789-9c34-7ef3f002ea99" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="67a91e63-83c5-44f7-8ed5-609844de861b" LastKnownName="Guard" />
+            </type_NamedElement>
+          </property>
+          <property Id="b3b6daae-e266-4521-89f7-6a895e338fd4" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="1afd7a06-3b5b-4d6c-b496-e38c949a8968" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="79e92337-b323-41d8-8bf8-70cbb765f026" LastKnownName="User" />
+            </type_NamedElement>
+          </property>
+          <property Id="8dcdda31-94d1-4ecd-a840-e566f8d50cd5" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="de3853c7-71ba-47c3-bb99-0fdd98a877d5" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="0a23c924-185a-4ac8-8e7a-8c5cc5349276" LastKnownName="GuardPanel" />
+            </type_NamedElement>
+          </property>
+          <property Id="670d6f0a-a409-4cff-be85-2e563eed8d6f" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="886995fe-efdb-496d-bafa-4d878d030cfa" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="1c366e77-fe5d-4e73-987f-3aaeb82b64fc" LastKnownName="Micro" />
+            </type_NamedElement>
+          </property>
+          <property Id="84084dc0-a8f7-4443-988d-207aed376097" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="138247b1-89fc-4dd8-b3c9-cc20dc7cd07d" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="87162fbe-5b49-409d-bb50-0aa83017b458" LastKnownName="Locker" />
+            </type_NamedElement>
+          </property>
+          <property Id="c1971c1f-40cd-4345-8b37-09057d7ff4c7" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d45399db-8c99-45a0-af7f-67c371d46c1d" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="e4c928b4-8099-4a5b-a7f0-2fb60154dab9" LastKnownName="Sound" />
             </type_NamedElement>
           </property>
         </ownedAttributesInternal>
       </interaction>
     </packageHasNamedElement>
     <packageHasNamedElement>
-      <referencedType Id="aa3b7105-5dc4-48e6-950c-ce1482318e59" name="user panel" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject1::user panel">
+      <referencedType Id="aa3b7105-5dc4-48e6-950c-ce1482318e59" name="UserPanel" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject1::UserPanel">
         <elementDefinition Id="5c9fe878-3bad-452e-a6aa-f0a62225f7ed" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="67a91e63-83c5-44f7-8ed5-609844de861b" name="Guard" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject1::Guard">
+        <elementDefinition Id="9ffe69ba-93c4-497c-aa39-d664d32e88e6" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="79e92337-b323-41d8-8bf8-70cbb765f026" name="User" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject1::User">
+        <elementDefinition Id="0b4e73f2-2e18-48fe-8533-3efa65fbe49d" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="0a23c924-185a-4ac8-8e7a-8c5cc5349276" name="GuardPanel" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject1::GuardPanel">
+        <elementDefinition Id="b46190da-4e63-4613-a9f5-9043cbfb1e4a" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="1c366e77-fe5d-4e73-987f-3aaeb82b64fc" name="Micro" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject1::Micro">
+        <elementDefinition Id="71bcebcb-b660-4c5f-8016-42657f0ffb18" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="87162fbe-5b49-409d-bb50-0aa83017b458" name="Locker" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject1::Locker">
+        <elementDefinition Id="2457e48a-d968-419e-ac41-ad3e129dc533" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="e4c928b4-8099-4a5b-a7f0-2fb60154dab9" name="Sound" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject1::Sound">
+        <elementDefinition Id="970ab440-6372-4d3a-a72f-800f0045079d" />
       </referencedType>
     </packageHasNamedElement>
   </packagedElements>

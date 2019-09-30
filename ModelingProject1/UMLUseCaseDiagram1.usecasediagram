@@ -16,12 +16,12 @@
   </profileInstances>
   <packagedElements>
     <useCaseModelRootHasTypes>
-      <actor Id="e074371c-adbe-4420-a0b0-2babebba2e8c" name="user" isAbstract="false" isLeaf="false">
+      <actor Id="e074371c-adbe-4420-a0b0-2babebba2e8c" name="User" isAbstract="false" isLeaf="false">
         <elementDefinition Id="0b4e73f2-2e18-48fe-8533-3efa65fbe49d" />
       </actor>
     </useCaseModelRootHasTypes>
     <useCaseModelRootHasTypes>
-      <actor Id="35284856-d521-4b93-955d-d4e68da0e82f" name="guard" isAbstract="false" isLeaf="false">
+      <actor Id="35284856-d521-4b93-955d-d4e68da0e82f" name="Guard" isAbstract="false" isLeaf="false">
         <elementDefinition Id="9ffe69ba-93c4-497c-aa39-d664d32e88e6" />
       </actor>
     </useCaseModelRootHasTypes>

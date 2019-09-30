@@ -34,7 +34,7 @@
             <coveredLifelines>
               <lifelineMoniker
                 Id="42b61b0a-2937-4953-af5f-f37100e65509"
-                LastKnownName="user panel"
+                LastKnownName="userPanel : UserPanel"
                 LastKnownLocation="ModelingProject1.uml" />
             </coveredLifelines>
             <finish>
@@ -70,27 +70,37 @@
             <covered>
               <lifelineMoniker
                 Id="42b61b0a-2937-4953-af5f-f37100e65509"
-                LastKnownName="user panel"
+                LastKnownName="userPanel : UserPanel"
                 LastKnownLocation="ModelingProject1.uml" />
             </covered>
           </executionOccurrenceSpecification>
           <messageOccurrenceSpecification
             Id="383d7658-0075-4e5b-98c6-56a6d24eafe6"
             name="MessageOccurrenceSpecification32">
+            <event>
+              <receiveOperationEventMoniker
+                Id="8a3f1397-d728-4d4e-888b-be0d58ea27b9"
+                LastKnownLocation="ModelingProject1.uml" />
+            </event>
             <covered>
               <lifelineMoniker
                 Id="42b61b0a-2937-4953-af5f-f37100e65509"
-                LastKnownName="user panel"
+                LastKnownName="userPanel : UserPanel"
                 LastKnownLocation="ModelingProject1.uml" />
             </covered>
           </messageOccurrenceSpecification>
           <messageOccurrenceSpecification
             Id="a23f471d-c44f-4e61-97ba-239cbf27d5d6"
             name="MessageOccurrenceSpecification31">
+            <event>
+              <sendOperationEventMoniker
+                Id="e46a7973-5a50-4432-95fd-8cdd2e95e601"
+                LastKnownLocation="ModelingProject1.uml" />
+            </event>
             <covered>
               <lifelineMoniker
                 Id="00480f62-fba4-4948-a2ef-fa3885b9d678"
-                LastKnownName="user : user"
+                LastKnownName="user : User"
                 LastKnownLocation="ModelingProject1.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -108,7 +118,7 @@
             <covered>
               <lifelineMoniker
                 Id="42b61b0a-2937-4953-af5f-f37100e65509"
-                LastKnownName="user panel"
+                LastKnownName="userPanel : UserPanel"
                 LastKnownLocation="ModelingProject1.uml" />
             </covered>
           </executionOccurrenceSpecification>
@@ -118,7 +128,7 @@
             <coveredLifelines>
               <lifelineMoniker
                 Id="df340e40-4db4-4209-8880-f54db8caa352"
-                LastKnownName="display"
+                LastKnownName="display : Display"
                 LastKnownLocation="ModelingProject1.uml" />
             </coveredLifelines>
             <finish>
@@ -154,7 +164,7 @@
             <covered>
               <lifelineMoniker
                 Id="df340e40-4db4-4209-8880-f54db8caa352"
-                LastKnownName="display"
+                LastKnownName="display : Display"
                 LastKnownLocation="ModelingProject1.uml" />
             </covered>
           </executionOccurrenceSpecification>
@@ -169,7 +179,7 @@
             <covered>
               <lifelineMoniker
                 Id="df340e40-4db4-4209-8880-f54db8caa352"
-                LastKnownName="display"
+                LastKnownName="display : Display"
                 LastKnownLocation="ModelingProject1.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -184,7 +194,7 @@
             <covered>
               <lifelineMoniker
                 Id="42b61b0a-2937-4953-af5f-f37100e65509"
-                LastKnownName="user panel"
+                LastKnownName="userPanel : UserPanel"
                 LastKnownLocation="ModelingProject1.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -202,7 +212,7 @@
             <covered>
               <lifelineMoniker
                 Id="df340e40-4db4-4209-8880-f54db8caa352"
-                LastKnownName="display"
+                LastKnownName="display : Display"
                 LastKnownLocation="ModelingProject1.uml" />
             </covered>
           </executionOccurrenceSpecification>
@@ -212,7 +222,7 @@
             <coveredLifelines>
               <lifelineMoniker
                 Id="bc3aedb7-4897-461c-ac30-eed7419f2c00"
-                LastKnownName="service"
+                LastKnownName="controlDevice : ControlDevice"
                 LastKnownLocation="ModelingProject1.uml" />
             </coveredLifelines>
             <finish>
@@ -248,7 +258,7 @@
             <covered>
               <lifelineMoniker
                 Id="bc3aedb7-4897-461c-ac30-eed7419f2c00"
-                LastKnownName="service"
+                LastKnownName="controlDevice : ControlDevice"
                 LastKnownLocation="ModelingProject1.uml" />
             </covered>
           </executionOccurrenceSpecification>
@@ -263,7 +273,7 @@
             <covered>
               <lifelineMoniker
                 Id="42b61b0a-2937-4953-af5f-f37100e65509"
-                LastKnownName="user panel"
+                LastKnownName="userPanel : UserPanel"
                 LastKnownLocation="ModelingProject1.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -278,7 +288,7 @@
             <covered>
               <lifelineMoniker
                 Id="bc3aedb7-4897-461c-ac30-eed7419f2c00"
-                LastKnownName="service"
+                LastKnownName="controlDevice : ControlDevice"
                 LastKnownLocation="ModelingProject1.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -296,7 +306,7 @@
             <covered>
               <lifelineMoniker
                 Id="bc3aedb7-4897-461c-ac30-eed7419f2c00"
-                LastKnownName="service"
+                LastKnownName="controlDevice : ControlDevice"
                 LastKnownLocation="ModelingProject1.uml" />
             </covered>
           </executionOccurrenceSpecification>
@@ -306,7 +316,7 @@
             <coveredLifelines>
               <lifelineMoniker
                 Id="69cb264f-1118-42c5-9876-749eea7ea3fd"
-                LastKnownName="memory"
+                LastKnownName="memory : Memory"
                 LastKnownLocation="ModelingProject1.uml" />
             </coveredLifelines>
             <finish>
@@ -346,7 +356,7 @@
             <covered>
               <lifelineMoniker
                 Id="69cb264f-1118-42c5-9876-749eea7ea3fd"
-                LastKnownName="memory"
+                LastKnownName="memory : Memory"
                 LastKnownLocation="ModelingProject1.uml" />
             </covered>
           </executionOccurrenceSpecification>
@@ -361,7 +371,7 @@
             <covered>
               <lifelineMoniker
                 Id="bc3aedb7-4897-461c-ac30-eed7419f2c00"
-                LastKnownName="service"
+                LastKnownName="controlDevice : ControlDevice"
                 LastKnownLocation="ModelingProject1.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -376,7 +386,7 @@
             <covered>
               <lifelineMoniker
                 Id="69cb264f-1118-42c5-9876-749eea7ea3fd"
-                LastKnownName="memory"
+                LastKnownName="memory : Memory"
                 LastKnownLocation="ModelingProject1.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -386,7 +396,7 @@
             <covered>
               <lifelineMoniker
                 Id="69cb264f-1118-42c5-9876-749eea7ea3fd"
-                LastKnownName="memory"
+                LastKnownName="memory : Memory"
                 LastKnownLocation="ModelingProject1.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -396,7 +406,7 @@
             <covered>
               <lifelineMoniker
                 Id="bc3aedb7-4897-461c-ac30-eed7419f2c00"
-                LastKnownName="service"
+                LastKnownName="controlDevice : ControlDevice"
                 LastKnownLocation="ModelingProject1.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -414,7 +424,7 @@
             <covered>
               <lifelineMoniker
                 Id="69cb264f-1118-42c5-9876-749eea7ea3fd"
-                LastKnownName="memory"
+                LastKnownName="memory : Memory"
                 LastKnownLocation="ModelingProject1.uml" />
             </covered>
           </executionOccurrenceSpecification>
@@ -429,7 +439,7 @@
             <covered>
               <lifelineMoniker
                 Id="bc3aedb7-4897-461c-ac30-eed7419f2c00"
-                LastKnownName="service"
+                LastKnownName="controlDevice : ControlDevice"
                 LastKnownLocation="ModelingProject1.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -439,7 +449,7 @@
             <coveredLifelines>
               <lifelineMoniker
                 Id="bc3aedb7-4897-461c-ac30-eed7419f2c00"
-                LastKnownName="service"
+                LastKnownName="controlDevice : ControlDevice"
                 LastKnownLocation="ModelingProject1.uml" />
             </coveredLifelines>
             <finish>
@@ -475,7 +485,7 @@
             <covered>
               <lifelineMoniker
                 Id="bc3aedb7-4897-461c-ac30-eed7419f2c00"
-                LastKnownName="service"
+                LastKnownName="controlDevice : ControlDevice"
                 LastKnownLocation="ModelingProject1.uml" />
             </covered>
           </executionOccurrenceSpecification>
@@ -490,7 +500,7 @@
             <covered>
               <lifelineMoniker
                 Id="bc3aedb7-4897-461c-ac30-eed7419f2c00"
-                LastKnownName="service"
+                LastKnownName="controlDevice : ControlDevice"
                 LastKnownLocation="ModelingProject1.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -508,7 +518,7 @@
             <covered>
               <lifelineMoniker
                 Id="bc3aedb7-4897-461c-ac30-eed7419f2c00"
-                LastKnownName="service"
+                LastKnownName="controlDevice : ControlDevice"
                 LastKnownLocation="ModelingProject1.uml" />
             </covered>
           </executionOccurrenceSpecification>
@@ -518,7 +528,7 @@
             <coveredLifelines>
               <lifelineMoniker
                 Id="df340e40-4db4-4209-8880-f54db8caa352"
-                LastKnownName="display"
+                LastKnownName="display : Display"
                 LastKnownLocation="ModelingProject1.uml" />
             </coveredLifelines>
             <finish>
@@ -554,7 +564,7 @@
             <covered>
               <lifelineMoniker
                 Id="df340e40-4db4-4209-8880-f54db8caa352"
-                LastKnownName="display"
+                LastKnownName="display : Display"
                 LastKnownLocation="ModelingProject1.uml" />
             </covered>
           </executionOccurrenceSpecification>
@@ -569,7 +579,7 @@
             <covered>
               <lifelineMoniker
                 Id="df340e40-4db4-4209-8880-f54db8caa352"
-                LastKnownName="display"
+                LastKnownName="display : Display"
                 LastKnownLocation="ModelingProject1.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -584,7 +594,7 @@
             <covered>
               <lifelineMoniker
                 Id="bc3aedb7-4897-461c-ac30-eed7419f2c00"
-                LastKnownName="service"
+                LastKnownName="controlDevice : ControlDevice"
                 LastKnownLocation="ModelingProject1.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -594,7 +604,7 @@
             <coveredLifelines>
               <lifelineMoniker
                 Id="09726cee-66e6-4825-b18a-4c40b514c7c1"
-                LastKnownName="locker"
+                LastKnownName="locker : Locker"
                 LastKnownLocation="ModelingProject1.uml" />
             </coveredLifelines>
             <finish>
@@ -634,7 +644,7 @@
             <covered>
               <lifelineMoniker
                 Id="09726cee-66e6-4825-b18a-4c40b514c7c1"
-                LastKnownName="locker"
+                LastKnownName="locker : Locker"
                 LastKnownLocation="ModelingProject1.uml" />
             </covered>
           </executionOccurrenceSpecification>
@@ -649,7 +659,7 @@
             <covered>
               <lifelineMoniker
                 Id="09726cee-66e6-4825-b18a-4c40b514c7c1"
-                LastKnownName="locker"
+                LastKnownName="locker : Locker"
                 LastKnownLocation="ModelingProject1.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -664,7 +674,7 @@
             <covered>
               <lifelineMoniker
                 Id="bc3aedb7-4897-461c-ac30-eed7419f2c00"
-                LastKnownName="service"
+                LastKnownName="controlDevice : ControlDevice"
                 LastKnownLocation="ModelingProject1.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -682,7 +692,7 @@
             <covered>
               <lifelineMoniker
                 Id="df340e40-4db4-4209-8880-f54db8caa352"
-                LastKnownName="display"
+                LastKnownName="display : Display"
                 LastKnownLocation="ModelingProject1.uml" />
             </covered>
           </executionOccurrenceSpecification>
@@ -692,7 +702,7 @@
             <covered>
               <lifelineMoniker
                 Id="09726cee-66e6-4825-b18a-4c40b514c7c1"
-                LastKnownName="locker"
+                LastKnownName="locker : Locker"
                 LastKnownLocation="ModelingProject1.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -702,7 +712,7 @@
             <covered>
               <lifelineMoniker
                 Id="bc3aedb7-4897-461c-ac30-eed7419f2c00"
-                LastKnownName="service"
+                LastKnownName="controlDevice : ControlDevice"
                 LastKnownLocation="ModelingProject1.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -720,7 +730,7 @@
             <covered>
               <lifelineMoniker
                 Id="09726cee-66e6-4825-b18a-4c40b514c7c1"
-                LastKnownName="locker"
+                LastKnownName="locker : Locker"
                 LastKnownLocation="ModelingProject1.uml" />
             </covered>
           </executionOccurrenceSpecification>
@@ -735,7 +745,7 @@
             <covered>
               <lifelineMoniker
                 Id="bc3aedb7-4897-461c-ac30-eed7419f2c00"
-                LastKnownName="service"
+                LastKnownName="controlDevice : ControlDevice"
                 LastKnownLocation="ModelingProject1.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -745,7 +755,7 @@
             <coveredLifelines>
               <lifelineMoniker
                 Id="bc3aedb7-4897-461c-ac30-eed7419f2c00"
-                LastKnownName="service"
+                LastKnownName="controlDevice : ControlDevice"
                 LastKnownLocation="ModelingProject1.uml" />
             </coveredLifelines>
             <finish>
@@ -781,7 +791,7 @@
             <covered>
               <lifelineMoniker
                 Id="bc3aedb7-4897-461c-ac30-eed7419f2c00"
-                LastKnownName="service"
+                LastKnownName="controlDevice : ControlDevice"
                 LastKnownLocation="ModelingProject1.uml" />
             </covered>
           </executionOccurrenceSpecification>
@@ -796,7 +806,7 @@
             <covered>
               <lifelineMoniker
                 Id="bc3aedb7-4897-461c-ac30-eed7419f2c00"
-                LastKnownName="service"
+                LastKnownName="controlDevice : ControlDevice"
                 LastKnownLocation="ModelingProject1.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -814,7 +824,7 @@
             <covered>
               <lifelineMoniker
                 Id="bc3aedb7-4897-461c-ac30-eed7419f2c00"
-                LastKnownName="service"
+                LastKnownName="controlDevice : ControlDevice"
                 LastKnownLocation="ModelingProject1.uml" />
             </covered>
           </executionOccurrenceSpecification>
@@ -824,7 +834,7 @@
             <coveredLifelines>
               <lifelineMoniker
                 Id="09726cee-66e6-4825-b18a-4c40b514c7c1"
-                LastKnownName="locker"
+                LastKnownName="locker : Locker"
                 LastKnownLocation="ModelingProject1.uml" />
             </coveredLifelines>
             <finish>
@@ -864,7 +874,7 @@
             <covered>
               <lifelineMoniker
                 Id="09726cee-66e6-4825-b18a-4c40b514c7c1"
-                LastKnownName="locker"
+                LastKnownName="locker : Locker"
                 LastKnownLocation="ModelingProject1.uml" />
             </covered>
           </executionOccurrenceSpecification>
@@ -879,7 +889,7 @@
             <covered>
               <lifelineMoniker
                 Id="09726cee-66e6-4825-b18a-4c40b514c7c1"
-                LastKnownName="locker"
+                LastKnownName="locker : Locker"
                 LastKnownLocation="ModelingProject1.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -894,7 +904,7 @@
             <covered>
               <lifelineMoniker
                 Id="bc3aedb7-4897-461c-ac30-eed7419f2c00"
-                LastKnownName="service"
+                LastKnownName="controlDevice : ControlDevice"
                 LastKnownLocation="ModelingProject1.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -904,7 +914,7 @@
             <covered>
               <lifelineMoniker
                 Id="09726cee-66e6-4825-b18a-4c40b514c7c1"
-                LastKnownName="locker"
+                LastKnownName="locker : Locker"
                 LastKnownLocation="ModelingProject1.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -914,7 +924,7 @@
             <covered>
               <lifelineMoniker
                 Id="bc3aedb7-4897-461c-ac30-eed7419f2c00"
-                LastKnownName="service"
+                LastKnownName="controlDevice : ControlDevice"
                 LastKnownLocation="ModelingProject1.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -932,7 +942,7 @@
             <covered>
               <lifelineMoniker
                 Id="09726cee-66e6-4825-b18a-4c40b514c7c1"
-                LastKnownName="locker"
+                LastKnownName="locker : Locker"
                 LastKnownLocation="ModelingProject1.uml" />
             </covered>
           </executionOccurrenceSpecification>
@@ -942,7 +952,7 @@
             <coveredLifelines>
               <lifelineMoniker
                 Id="df340e40-4db4-4209-8880-f54db8caa352"
-                LastKnownName="display"
+                LastKnownName="display : Display"
                 LastKnownLocation="ModelingProject1.uml" />
             </coveredLifelines>
             <finish>
@@ -978,7 +988,7 @@
             <covered>
               <lifelineMoniker
                 Id="df340e40-4db4-4209-8880-f54db8caa352"
-                LastKnownName="display"
+                LastKnownName="display : Display"
                 LastKnownLocation="ModelingProject1.uml" />
             </covered>
           </executionOccurrenceSpecification>
@@ -993,7 +1003,7 @@
             <covered>
               <lifelineMoniker
                 Id="bc3aedb7-4897-461c-ac30-eed7419f2c00"
-                LastKnownName="service"
+                LastKnownName="controlDevice : ControlDevice"
                 LastKnownLocation="ModelingProject1.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -1008,7 +1018,7 @@
             <covered>
               <lifelineMoniker
                 Id="df340e40-4db4-4209-8880-f54db8caa352"
-                LastKnownName="display"
+                LastKnownName="display : Display"
                 LastKnownLocation="ModelingProject1.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -1026,7 +1036,7 @@
             <covered>
               <lifelineMoniker
                 Id="df340e40-4db4-4209-8880-f54db8caa352"
-                LastKnownName="display"
+                LastKnownName="display : Display"
                 LastKnownLocation="ModelingProject1.uml" />
             </covered>
           </executionOccurrenceSpecification>
@@ -1036,7 +1046,7 @@
             <coveredLifelines>
               <lifelineMoniker
                 Id="f20735af-f4e2-4728-8f45-1ce1dd82bd15"
-                LastKnownName="sound"
+                LastKnownName="sound : Sound"
                 LastKnownLocation="ModelingProject1.uml" />
             </coveredLifelines>
             <finish>
@@ -1072,7 +1082,7 @@
             <covered>
               <lifelineMoniker
                 Id="f20735af-f4e2-4728-8f45-1ce1dd82bd15"
-                LastKnownName="sound"
+                LastKnownName="sound : Sound"
                 LastKnownLocation="ModelingProject1.uml" />
             </covered>
           </executionOccurrenceSpecification>
@@ -1087,7 +1097,7 @@
             <covered>
               <lifelineMoniker
                 Id="f20735af-f4e2-4728-8f45-1ce1dd82bd15"
-                LastKnownName="sound"
+                LastKnownName="sound : Sound"
                 LastKnownLocation="ModelingProject1.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -1102,7 +1112,7 @@
             <covered>
               <lifelineMoniker
                 Id="bc3aedb7-4897-461c-ac30-eed7419f2c00"
-                LastKnownName="service"
+                LastKnownName="controlDevice : ControlDevice"
                 LastKnownLocation="ModelingProject1.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -1120,7 +1130,7 @@
             <covered>
               <lifelineMoniker
                 Id="f20735af-f4e2-4728-8f45-1ce1dd82bd15"
-                LastKnownName="sound"
+                LastKnownName="sound : Sound"
                 LastKnownLocation="ModelingProject1.uml" />
             </covered>
           </executionOccurrenceSpecification>
@@ -1128,9 +1138,9 @@
         <lifelines>
           <lifeline
             Id="00480f62-fba4-4948-a2ef-fa3885b9d678"
-            name="user : user"
+            name="user : User"
             isActor="true"
-            lifelineDisplayName="user : user">
+            lifelineDisplayName="user : User">
             <represents>
               <propertyMoniker
                 Id="4a208170-8a9c-4597-bee0-72f5e62d9e50"
@@ -1145,9 +1155,9 @@
           </lifeline>
           <lifeline
             Id="42b61b0a-2937-4953-af5f-f37100e65509"
-            name="user panel"
+            name="userPanel : UserPanel"
             isActor="false"
-            lifelineDisplayName="user panel">
+            lifelineDisplayName="userPanel : UserPanel">
             <represents>
               <propertyMoniker
                 Id="e8f5b6f8-cf36-41c8-8300-c362c23d0542"
@@ -1174,9 +1184,9 @@
           </lifeline>
           <lifeline
             Id="bc3aedb7-4897-461c-ac30-eed7419f2c00"
-            name="service"
+            name="controlDevice : ControlDevice"
             isActor="false"
-            lifelineDisplayName="service">
+            lifelineDisplayName="controlDevice : ControlDevice">
             <represents>
               <propertyMoniker
                 Id="d2e8aee5-3969-4fe3-9da4-3c468b878fb9"
@@ -1255,9 +1265,9 @@
           </lifeline>
           <lifeline
             Id="69cb264f-1118-42c5-9876-749eea7ea3fd"
-            name="memory"
+            name="memory : Memory"
             isActor="false"
-            lifelineDisplayName="memory">
+            lifelineDisplayName="memory : Memory">
             <represents>
               <propertyMoniker
                 Id="83959d0c-8e7f-4945-8a26-df4b55999782"
@@ -1276,9 +1286,9 @@
           </lifeline>
           <lifeline
             Id="df340e40-4db4-4209-8880-f54db8caa352"
-            name="display"
+            name="display : Display"
             isActor="false"
-            lifelineDisplayName="display">
+            lifelineDisplayName="display : Display">
             <represents>
               <propertyMoniker
                 Id="a3e39b60-f9d9-4e2f-a3bb-8c0ddd950fa1"
@@ -1313,9 +1323,9 @@
           </lifeline>
           <lifeline
             Id="09726cee-66e6-4825-b18a-4c40b514c7c1"
-            name="locker"
+            name="locker : Locker"
             isActor="false"
-            lifelineDisplayName="locker">
+            lifelineDisplayName="locker : Locker">
             <represents>
               <propertyMoniker
                 Id="ecdf7538-296d-4c51-8e38-48c247aabf03"
@@ -1342,9 +1352,9 @@
           </lifeline>
           <lifeline
             Id="f20735af-f4e2-4728-8f45-1ce1dd82bd15"
-            name="sound"
+            name="sound : Sound"
             isActor="false"
-            lifelineDisplayName="sound">
+            lifelineDisplayName="sound : Sound">
             <represents>
               <propertyMoniker
                 Id="dfc31cb7-32a3-4f1d-93de-65167522e0ee"
@@ -1365,10 +1375,11 @@
         <messages>
           <message
             Id="132d069e-a20c-48bc-946a-fe3d34fff363"
-            name="Message1"
+            name="readSymbol"
             messageKind="Complete"
             messageSort="AsynchCall"
-            createSelfMessage="false">
+            createSelfMessage="false"
+            signatureText="+ readSymbol(symbol : Integer)">
             <sendEvent>
               <messageOccurrenceSpecificationMoniker
                 Id="a23f471d-c44f-4e61-97ba-239cbf27d5d6"
@@ -1662,7 +1673,7 @@
             <type_NamedElement>
               <classMoniker
                 Id="5c9fe878-3bad-452e-a6aa-f0a62225f7ed"
-                LastKnownName="user panel"
+                LastKnownName="UserPanel"
                 LastKnownLocation="ModelingProject1.uml" />
             </type_NamedElement>
           </property>
@@ -1678,7 +1689,7 @@
             <type_NamedElement>
               <classMoniker
                 Id="7a672dba-8f4e-4ef9-b138-7c57bcbf81be"
-                LastKnownName="service"
+                LastKnownName="ControlDevice"
                 LastKnownLocation="ModelingProject1.uml" />
             </type_NamedElement>
           </property>
@@ -1694,7 +1705,7 @@
             <type_NamedElement>
               <classMoniker
                 Id="3bffb18d-4ab2-4582-8233-983dcc3b7d1d"
-                LastKnownName="memory"
+                LastKnownName="Memory"
                 LastKnownLocation="ModelingProject1.uml" />
             </type_NamedElement>
           </property>
@@ -1710,7 +1721,7 @@
             <type_NamedElement>
               <classMoniker
                 Id="97acc11e-b592-4c19-9887-e00cc68b99f7"
-                LastKnownName="display"
+                LastKnownName="Display"
                 LastKnownLocation="ModelingProject1.uml" />
             </type_NamedElement>
           </property>
@@ -1726,7 +1737,7 @@
             <type_NamedElement>
               <classMoniker
                 Id="2457e48a-d968-419e-ac41-ad3e129dc533"
-                LastKnownName="locker"
+                LastKnownName="Locker"
                 LastKnownLocation="ModelingProject1.uml" />
             </type_NamedElement>
           </property>
@@ -1742,7 +1753,7 @@
             <type_NamedElement>
               <classMoniker
                 Id="970ab440-6372-4d3a-a72f-800f0045079d"
-                LastKnownName="sound"
+                LastKnownName="Sound"
                 LastKnownLocation="ModelingProject1.uml" />
             </type_NamedElement>
           </property>
@@ -1758,7 +1769,7 @@
             <type_NamedElement>
               <actorMoniker
                 Id="0b4e73f2-2e18-48fe-8533-3efa65fbe49d"
-                LastKnownName="user"
+                LastKnownName="User"
                 LastKnownLocation="ModelingProject1.uml" />
             </type_NamedElement>
           </property>
@@ -1808,7 +1819,7 @@
     <packageHasNamedElement>
       <class
         Id="5c9fe878-3bad-452e-a6aa-f0a62225f7ed"
-        name="user panel"
+        name="UserPanel"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
@@ -1822,7 +1833,7 @@
             isAbstract="false">
             <classMoniker
               Id="7a672dba-8f4e-4ef9-b138-7c57bcbf81be"
-              LastKnownName="service"
+              LastKnownName="ControlDevice"
               LastKnownLocation="ModelingProject1.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
@@ -1855,7 +1866,7 @@
         </targetEnds>
         <ownedOperationsInternal>
           <operation
-            Id="28ef1658-8ee9-4eac-b3b8-fcd171ac2435"
+            Id="665409c3-b3c5-4551-8a23-0822013d1e0e"
             name="readSymbol"
             isLeaf="false"
             isStatic="false"
@@ -1865,8 +1876,9 @@
             <ownedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="aa7b0b51-df89-4afa-b55e-f30c09d97222"
-                  direction="Return">
+                  Id="88d30873-af96-4cb3-bdb0-3eafccc21bcc"
+                  name="symbol"
+                  direction="In">
                   <type_NamedElement>
                     <primitiveTypeMoniker
                       Id="220a3521-e091-4221-bae9-3ef9018e845c"
@@ -1883,7 +1895,7 @@
     <packageHasNamedElement>
       <class
         Id="7a672dba-8f4e-4ef9-b138-7c57bcbf81be"
-        name="service"
+        name="ControlDevice"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
@@ -1897,7 +1909,7 @@
             isAbstract="false">
             <classMoniker
               Id="3bffb18d-4ab2-4582-8233-983dcc3b7d1d"
-              LastKnownName="memory"
+              LastKnownName="Memory"
               LastKnownLocation="ModelingProject1.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
@@ -1936,7 +1948,7 @@
             isAbstract="false">
             <classMoniker
               Id="97acc11e-b592-4c19-9887-e00cc68b99f7"
-              LastKnownName="display"
+              LastKnownName="Display"
               LastKnownLocation="ModelingProject1.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
@@ -1975,7 +1987,7 @@
             isAbstract="false">
             <classMoniker
               Id="2457e48a-d968-419e-ac41-ad3e129dc533"
-              LastKnownName="locker"
+              LastKnownName="Locker"
               LastKnownLocation="ModelingProject1.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
@@ -2014,7 +2026,7 @@
             isAbstract="false">
             <classMoniker
               Id="970ab440-6372-4d3a-a72f-800f0045079d"
-              LastKnownName="sound"
+              LastKnownName="Sound"
               LastKnownLocation="ModelingProject1.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
@@ -2040,7 +2052,111 @@
                   isDerived="false"
                   isDerivedUnion="false"
                   aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="977cfdb0-2ada-465a-b186-89b879af43e3"
+                      name="Lower"
+                      value="2" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="5543bd0b-9498-4869-af9c-cfb4bc277029"
+                      name="Upper"
+                      value="2" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="b7b9de30-0ad6-441c-a347-f8d2ac82ba75"
+            isDerived="false"
+            sourceEndRoleName="service"
+            targetEndRoleName="guard panel"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="b46190da-4e63-4613-a9f5-9043cbfb1e4a"
+              LastKnownName="GuardPanel"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="95d74f18-cfc7-410a-a7c4-36052db595c8"
+                  name="service"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8a113e7c-59b1-4a0f-8992-90beab91985e"
+                  name="guard panel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
                   isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="0a31fcbf-99a0-4b36-a7e7-e7a6e9f14d5d"
+            isDerived="false"
+            sourceEndRoleName="service"
+            targetEndRoleName="micro"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="71bcebcb-b660-4c5f-8016-42657f0ffb18"
+              LastKnownName="Micro"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d5bc94b9-7bc3-4982-b2bd-6c47d389c484"
+                  name="service"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b07a50bb-26d3-42e3-b07c-56ad50b17fe1"
+                  name="micro"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="e862a34a-888e-4b32-872f-44cfd9685f14"
+                      name="Lower"
+                      value="2" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="326d7c4c-626e-42fa-8156-2ca59d8e3b2c"
+                      name="Upper"
+                      value="2" />
+                  </upperValueInternal>
+                </memberEnd>
               </associationHasOwnedEnds>
             </relationshipOwnedElementsInternal>
           </association>
@@ -2193,10 +2309,22 @@
     <packageHasNamedElement>
       <class
         Id="3bffb18d-4ab2-4582-8233-983dcc3b7d1d"
-        name="memory"
+        name="Memory"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="8cf4c362-6fa2-4bc8-823d-2dd3a70e3f90"
+            name="Attribute1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
         <ownedOperationsInternal>
           <operation
             Id="5c892274-181b-428c-a044-35d55d5fa919"
@@ -2249,7 +2377,7 @@
     <packageHasNamedElement>
       <class
         Id="97acc11e-b592-4c19-9887-e00cc68b99f7"
-        name="display"
+        name="Display"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
@@ -2324,7 +2452,7 @@
     <packageHasNamedElement>
       <class
         Id="2457e48a-d968-419e-ac41-ad3e129dc533"
-        name="locker"
+        name="Locker"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
@@ -2541,7 +2669,7 @@
     <packageHasNamedElement>
       <class
         Id="970ab440-6372-4d3a-a72f-800f0045079d"
-        name="sound"
+        name="Sound"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
@@ -2606,13 +2734,79 @@
         isReentrant="false">
         <lifelines>
           <lifeline
+            Id="8d151c8e-272f-40c3-9a72-5fe1853ab951"
+            name="user : User"
+            isActor="true"
+            lifelineDisplayName="user : User">
+            <represents>
+              <propertyMoniker
+                Id="1afd7a06-3b5b-4d6c-b496-e38c949a8968"
+                LastKnownLocation="ModelingProject1.uml" />
+            </represents>
+          </lifeline>
+          <lifeline
             Id="a14eceb8-cc67-43bd-aba1-ffa85f752c10"
-            name="user panel : user panel"
+            name="userPanel : UserPanel"
             isActor="false"
-            lifelineDisplayName="user panel : user panel">
+            lifelineDisplayName="userPanel : UserPanel">
             <represents>
               <propertyMoniker
                 Id="b3368d11-f51a-426c-b705-758d89b0c3fa"
+                LastKnownLocation="ModelingProject1.uml" />
+            </represents>
+          </lifeline>
+          <lifeline
+            Id="319adc29-9d73-43e9-b0bb-5120bfc1b030"
+            name="sound : Sound"
+            isActor="false"
+            lifelineDisplayName="sound : Sound">
+            <represents>
+              <propertyMoniker
+                Id="d45399db-8c99-45a0-af7f-67c371d46c1d"
+                LastKnownLocation="ModelingProject1.uml" />
+            </represents>
+          </lifeline>
+          <lifeline
+            Id="a6861d7a-af23-4aca-9a0b-b46157d7fa72"
+            name="locker : Locker"
+            isActor="false"
+            lifelineDisplayName="locker : Locker">
+            <represents>
+              <propertyMoniker
+                Id="138247b1-89fc-4dd8-b3c9-cc20dc7cd07d"
+                LastKnownLocation="ModelingProject1.uml" />
+            </represents>
+          </lifeline>
+          <lifeline
+            Id="8b249872-e603-4c42-ba7f-027b0cdd5299"
+            name="micro : Micro"
+            isActor="false"
+            lifelineDisplayName="micro : Micro">
+            <represents>
+              <propertyMoniker
+                Id="886995fe-efdb-496d-bafa-4d878d030cfa"
+                LastKnownLocation="ModelingProject1.uml" />
+            </represents>
+          </lifeline>
+          <lifeline
+            Id="4fd42b1b-fee1-47d7-9c2a-7893d7c2a14a"
+            name="guardPanel : GuardPanel"
+            isActor="false"
+            lifelineDisplayName="guardPanel : GuardPanel">
+            <represents>
+              <propertyMoniker
+                Id="de3853c7-71ba-47c3-bb99-0fdd98a877d5"
+                LastKnownLocation="ModelingProject1.uml" />
+            </represents>
+          </lifeline>
+          <lifeline
+            Id="eebaaf47-f5f4-4114-9df5-91cf5e7c3f7e"
+            name="guard : Guard"
+            isActor="true"
+            lifelineDisplayName="guard : Guard">
+            <represents>
+              <propertyMoniker
+                Id="15a3a036-f2eb-4789-9c34-7ef3f002ea99"
                 LastKnownLocation="ModelingProject1.uml" />
             </represents>
           </lifeline>
@@ -2639,7 +2833,103 @@
             <type_NamedElement>
               <classMoniker
                 Id="5c9fe878-3bad-452e-a6aa-f0a62225f7ed"
-                LastKnownName="user panel"
+                LastKnownName="UserPanel"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="15a3a036-f2eb-4789-9c34-7ef3f002ea99"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <actorMoniker
+                Id="9ffe69ba-93c4-497c-aa39-d664d32e88e6"
+                LastKnownName="Guard"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="1afd7a06-3b5b-4d6c-b496-e38c949a8968"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <actorMoniker
+                Id="0b4e73f2-2e18-48fe-8533-3efa65fbe49d"
+                LastKnownName="User"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="de3853c7-71ba-47c3-bb99-0fdd98a877d5"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="b46190da-4e63-4613-a9f5-9043cbfb1e4a"
+                LastKnownName="GuardPanel"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="886995fe-efdb-496d-bafa-4d878d030cfa"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="71bcebcb-b660-4c5f-8016-42657f0ffb18"
+                LastKnownName="Micro"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="138247b1-89fc-4dd8-b3c9-cc20dc7cd07d"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="2457e48a-d968-419e-ac41-ad3e129dc533"
+                LastKnownName="Locker"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="d45399db-8c99-45a0-af7f-67c371d46c1d"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="970ab440-6372-4d3a-a72f-800f0045079d"
+                LastKnownName="Sound"
                 LastKnownLocation="ModelingProject1.uml" />
             </type_NamedElement>
           </property>
@@ -2649,14 +2939,14 @@
     <packageHasNamedElement>
       <actor
         Id="0b4e73f2-2e18-48fe-8533-3efa65fbe49d"
-        name="user"
+        name="User"
         isAbstract="false"
         isLeaf="false" />
     </packageHasNamedElement>
     <packageHasNamedElement>
       <actor
         Id="9ffe69ba-93c4-497c-aa39-d664d32e88e6"
-        name="guard"
+        name="Guard"
         isAbstract="false"
         isLeaf="false" />
     </packageHasNamedElement>
@@ -2669,6 +2959,44 @@
       <executionEvent
         Id="7150afef-4382-492b-8d0d-efc804064ceb"
         name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <sendOperationEvent
+        Id="e46a7973-5a50-4432-95fd-8cdd2e95e601">
+        <operation>
+          <operationMoniker
+            Id="665409c3-b3c5-4551-8a23-0822013d1e0e"
+            LastKnownName="readSymbol"
+            LastKnownLocation="ModelingProject1.uml" />
+        </operation>
+      </sendOperationEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <receiveOperationEvent
+        Id="8a3f1397-d728-4d4e-888b-be0d58ea27b9">
+        <operation>
+          <operationMoniker
+            Id="665409c3-b3c5-4551-8a23-0822013d1e0e"
+            LastKnownName="readSymbol"
+            LastKnownLocation="ModelingProject1.uml" />
+        </operation>
+      </receiveOperationEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="b46190da-4e63-4613-a9f5-9043cbfb1e4a"
+        name="GuardPanel"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="71bcebcb-b660-4c5f-8016-42657f0ffb18"
+        name="Micro"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
     </packageHasNamedElement>
   </packagedElements>
   <primitiveType

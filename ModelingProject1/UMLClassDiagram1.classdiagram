@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="dd8a4744-fa7f-4f4b-9147-5d5f1cca69f4" name="UMLClassDiagram1" linkedPackageId="2bb44c88-23ca-4a88-87d3-e2513150ad3f" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm11="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="dd8a4744-fa7f-4f4b-9147-5d5f1cca69f4" name="UMLClassDiagram1" linkedPackageId="2bb44c88-23ca-4a88-87d3-e2513150ad3f" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
   <profileInstances>
     <packageHasProfileInstances Id="85836550-eb07-435e-aa55-6f40cd6aebf2">
       <profileInstance Id="58524d18-f71a-4f84-bf44-f4e1927f53c8" name="StandardProfileL2">
@@ -16,7 +16,7 @@
   </profileInstances>
   <packagedElements>
     <logicalClassDesignerModelHasTypes>
-      <class Id="e7f64784-e15a-44d6-a554-2a8bbab9cb9b" name="display" isAbstract="false" isLeaf="false" isActiveClass="false">
+      <class Id="e7f64784-e15a-44d6-a554-2a8bbab9cb9b" name="Display" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="97acc11e-b592-4c19-9887-e00cc68b99f7" />
         <ownedOperationsInternal>
           <operation Id="c662c2d0-c65d-489c-9c0c-67abf2749646" name="showSymbol" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
@@ -39,8 +39,13 @@
       </class>
     </logicalClassDesignerModelHasTypes>
     <logicalClassDesignerModelHasTypes>
-      <class Id="c533ae99-856f-4b2b-85be-aaf2ef1b27b6" name="memory" isAbstract="false" isLeaf="false" isActiveClass="false">
+      <class Id="c533ae99-856f-4b2b-85be-aaf2ef1b27b6" name="Memory" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="3bffb18d-4ab2-4582-8233-983dcc3b7d1d" />
+        <ownedAttributesInternal>
+          <property Id="40ef7464-b9a8-4a92-b8cf-22008851fa7d" name="Attribute1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="8cf4c362-6fa2-4bc8-823d-2dd3a70e3f90" />
+          </property>
+        </ownedAttributesInternal>
         <ownedOperationsInternal>
           <operation Id="45afb316-c73f-44e7-bdd9-13d167ed6b24" name="getEnterCode" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <elementDefinition Id="5c892274-181b-428c-a044-35d55d5fa919" />
@@ -59,11 +64,11 @@
       </class>
     </logicalClassDesignerModelHasTypes>
     <logicalClassDesignerModelHasTypes>
-      <class Id="6eb7f745-4de6-4ed5-aa6e-91333b72a156" name="service" isAbstract="false" isLeaf="false" isActiveClass="false">
+      <class Id="6eb7f745-4de6-4ed5-aa6e-91333b72a156" name="ControlDevice" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="7a672dba-8f4e-4ef9-b138-7c57bcbf81be" />
         <targetEnds>
           <association Id="d350a236-6f3e-49b8-8f2b-e0f8be0d2c19" isDerived="false" sourceEndRoleName="service" targetEndRoleName="memory" isLeaf="false" isAbstract="false">
-            <classMoniker Id="c533ae99-856f-4b2b-85be-aaf2ef1b27b6" LastKnownName="memory" />
+            <classMoniker Id="c533ae99-856f-4b2b-85be-aaf2ef1b27b6" LastKnownName="Memory" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
                 <memberEnd Id="34088936-2854-4aa6-8833-7a82b95cad3b" name="service" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
@@ -79,7 +84,7 @@
             <elementDefinition Id="92499fe2-4da7-4631-ae4f-a7fe59997920" />
           </association>
           <association Id="b8f6280f-a628-41cf-8fad-6d543238710f" isDerived="false" sourceEndRoleName="service" targetEndRoleName="display" isLeaf="false" isAbstract="false">
-            <classMoniker Id="e7f64784-e15a-44d6-a554-2a8bbab9cb9b" LastKnownName="display" />
+            <classMoniker Id="e7f64784-e15a-44d6-a554-2a8bbab9cb9b" LastKnownName="Display" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
                 <memberEnd Id="f8c4eae5-ce9f-4a08-9eeb-da07863cf8e4" name="service" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
@@ -95,7 +100,7 @@
             <elementDefinition Id="c038593c-e450-4833-b2a7-42eaa486bc56" />
           </association>
           <association Id="130e0979-84d6-4173-b9a0-1063ee388e9c" isDerived="false" sourceEndRoleName="service" targetEndRoleName="locker" isLeaf="false" isAbstract="false">
-            <classMoniker Id="1a980c6c-6892-4fda-978b-81ef89848bb2" LastKnownName="locker" />
+            <classMoniker Id="1a980c6c-6892-4fda-978b-81ef89848bb2" LastKnownName="Locker" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
                 <memberEnd Id="f5950568-113f-485f-85c9-dd881ede6a41" name="service" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
@@ -111,7 +116,7 @@
             <elementDefinition Id="ec877b80-ac10-4678-b0c4-85a56eb88cd3" />
           </association>
           <association Id="75ffb7c4-a4e4-4319-989b-4c717e421128" isDerived="false" sourceEndRoleName="service" targetEndRoleName="sound" isLeaf="false" isAbstract="false">
-            <classMoniker Id="8e9358c3-59ea-46d8-a788-73b3c9579249" LastKnownName="sound" />
+            <classMoniker Id="8e9358c3-59ea-46d8-a788-73b3c9579249" LastKnownName="Sound" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
                 <memberEnd Id="3d162305-99ba-49c3-a786-9164324f21bf" name="service" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
@@ -120,11 +125,63 @@
               </associationHasOwnedEnds>
               <associationHasOwnedEnds>
                 <memberEnd Id="2ed8ee76-e7ec-4703-b180-e5c899d83062" name="sound" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="321922a8-e1f6-47a0-b1a4-ca2b7684e347" name="Lower" value="2">
+                      <elementDefinition Id="977cfdb0-2ada-465a-b186-89b879af43e3" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="7e12da87-b0f8-4e28-8ebd-307cea49f11f" name="Upper" value="2">
+                      <elementDefinition Id="5543bd0b-9498-4869-af9c-cfb4bc277029" />
+                    </literalString>
+                  </upperValueInternal>
                   <elementDefinition Id="d6eb01de-675d-49a4-8f38-4944a1f77017" />
                 </memberEnd>
               </associationHasOwnedEnds>
             </relationshipOwnedElementsInternal>
             <elementDefinition Id="b360e9f9-45b8-4b6c-84c8-e556dbd742d7" />
+          </association>
+          <association Id="8b54091c-41c3-4781-afa9-5ff0919dd280" isDerived="false" sourceEndRoleName="service" targetEndRoleName="guard panel" isLeaf="false" isAbstract="false">
+            <classMoniker Id="7dc5b605-b5c0-4a3f-8ef0-bdab821daa96" LastKnownName="GuardPanel" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="20e54cfc-3395-400e-86de-483bc575b5e3" name="service" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="95d74f18-cfc7-410a-a7c4-36052db595c8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9763bce0-9b86-4c45-a682-a220922ed51c" name="guard panel" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="8a113e7c-59b1-4a0f-8992-90beab91985e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="b7b9de30-0ad6-441c-a347-f8d2ac82ba75" />
+          </association>
+          <association Id="42d93c71-55e0-492f-b8b2-759ad2bcc623" isDerived="false" sourceEndRoleName="service" targetEndRoleName="micro" isLeaf="false" isAbstract="false">
+            <classMoniker Id="27eac42d-663e-4870-aacf-39aa5205bbea" LastKnownName="Micro" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5f692da1-7e60-4fe0-b07a-316d4fcfa240" name="service" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="d5bc94b9-7bc3-4982-b2bd-6c47d389c484" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d0df6c48-462a-49e0-ad69-340e54cde2fe" name="micro" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="35605f26-8f45-44ee-ada3-f2edb81fbae1" name="Lower" value="2">
+                      <elementDefinition Id="e862a34a-888e-4b32-872f-44cfd9685f14" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="26eb7243-37c0-473b-9323-4d0e0d05c4bd" name="Upper" value="2">
+                      <elementDefinition Id="326d7c4c-626e-42fa-8156-2ca59d8e3b2c" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="b07a50bb-26d3-42e3-b07c-56ad50b17fe1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="0a31fcbf-99a0-4b36-a7e7-e7a6e9f14d5d" />
           </association>
         </targetEnds>
         <ownedOperationsInternal>
@@ -192,11 +249,11 @@
       </referencedType>
     </packageHasNamedElement>
     <logicalClassDesignerModelHasTypes>
-      <class Id="44e0b758-b1db-49b8-868e-10dbd29e9b0e" name="user panel" isAbstract="false" isLeaf="false" isActiveClass="false">
+      <class Id="44e0b758-b1db-49b8-868e-10dbd29e9b0e" name="UserPanel" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="5c9fe878-3bad-452e-a6aa-f0a62225f7ed" />
         <targetEnds>
           <association Id="cbaf21f0-063e-422d-b297-0b6065fc6462" isDerived="false" sourceEndRoleName="user panel" targetEndRoleName="service" isLeaf="false" isAbstract="false">
-            <classMoniker Id="6eb7f745-4de6-4ed5-aa6e-91333b72a156" LastKnownName="service" />
+            <classMoniker Id="6eb7f745-4de6-4ed5-aa6e-91333b72a156" LastKnownName="ControlDevice" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
                 <memberEnd Id="636f9001-ca1c-4df5-bbe8-a66d0b1bce3a" name="user panel" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
@@ -213,12 +270,12 @@
           </association>
         </targetEnds>
         <ownedOperationsInternal>
-          <operation Id="54150259-d76f-4398-a698-91753fdd4566" name="readSymbol" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
-            <elementDefinition Id="28ef1658-8ee9-4eac-b3b8-fcd171ac2435" />
+          <operation Id="cbbcd3aa-a4f4-41f8-b050-53eedbe03a32" name="readSymbol" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="665409c3-b3c5-4551-8a23-0822013d1e0e" />
             <ownedParameters>
               <operationHasOwnedParameters>
-                <parameter Id="c6eeda3a-aad4-4447-bfa5-a54ea11fa512" direction="Return">
-                  <elementDefinition Id="aa7b0b51-df89-4afa-b55e-f30c09d97222" />
+                <parameter Id="a91fc08e-8080-408f-9e0c-0a4392c529c8" name="symbol" direction="In">
+                  <elementDefinition Id="88d30873-af96-4cb3-bdb0-3eafccc21bcc" />
                   <type_NamedElement>
                     <referencedTypeMoniker Id="5e9237fe-d089-42e7-b3c7-a8c0ebc34ad4" LastKnownName="Integer" />
                   </type_NamedElement>
@@ -235,7 +292,7 @@
       </referencedType>
     </packageHasNamedElement>
     <logicalClassDesignerModelHasTypes>
-      <class Id="1a980c6c-6892-4fda-978b-81ef89848bb2" name="locker" isAbstract="false" isLeaf="false" isActiveClass="false">
+      <class Id="1a980c6c-6892-4fda-978b-81ef89848bb2" name="Locker" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="2457e48a-d968-419e-ac41-ad3e129dc533" />
         <ownedOperationsInternal>
           <operation Id="468cf757-3339-42d5-b5fd-72d9b743bc90" name="turnOff" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
@@ -273,7 +330,7 @@
       </referencedType>
     </packageHasNamedElement>
     <logicalClassDesignerModelHasTypes>
-      <class Id="8e9358c3-59ea-46d8-a788-73b3c9579249" name="sound" isAbstract="false" isLeaf="false" isActiveClass="false">
+      <class Id="8e9358c3-59ea-46d8-a788-73b3c9579249" name="Sound" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="970ab440-6372-4d3a-a72f-800f0045079d" />
         <ownedOperationsInternal>
           <operation Id="38b0ae1e-de71-433c-a3fb-7889acbdb1d5" name="playSound" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
@@ -290,6 +347,16 @@
             </ownedParameters>
           </operation>
         </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="7dc5b605-b5c0-4a3f-8ef0-bdab821daa96" name="GuardPanel" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b46190da-4e63-4613-a9f5-9043cbfb1e4a" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="27eac42d-663e-4870-aacf-39aa5205bbea" name="Micro" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="71bcebcb-b660-4c5f-8016-42657f0ffb18" />
       </class>
     </logicalClassDesignerModelHasTypes>
   </packagedElements>

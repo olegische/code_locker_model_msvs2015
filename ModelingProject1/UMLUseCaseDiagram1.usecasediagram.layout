@@ -3,11 +3,11 @@
   <useCaseModelRootMoniker Id="366dc5dc-1be3-4faf-9609-db076b5a6365" />
   <nestedChildShapes>
     <actorShape Id="f944039d-315b-4264-84ed-aeadbc177c88" absoluteBounds="0.75, 1, 0.5, 0.5" isReference="false" heightOffset="0">
-      <actorMoniker Id="e074371c-adbe-4420-a0b0-2babebba2e8c" LastKnownName="user" />
+      <actorMoniker Id="e074371c-adbe-4420-a0b0-2babebba2e8c" LastKnownName="User" />
       <relativeChildShapes />
     </actorShape>
     <actorShape Id="d19e3af1-475f-43ad-b67d-cde600317b05" absoluteBounds="3.625, 1.25, 0.5, 0.5" isReference="false" heightOffset="0">
-      <actorMoniker Id="35284856-d521-4b93-955d-d4e68da0e82f" LastKnownName="guard" />
+      <actorMoniker Id="35284856-d521-4b93-955d-d4e68da0e82f" LastKnownName="Guard" />
       <relativeChildShapes />
     </actorShape>
   </nestedChildShapes>
