@@ -2313,18 +2313,6 @@
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
-        <ownedAttributesInternal>
-          <property
-            Id="8cf4c362-6fa2-4bc8-823d-2dd3a70e3f90"
-            name="Attribute1"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-        </ownedAttributesInternal>
         <ownedOperationsInternal>
           <operation
             Id="5c892274-181b-428c-a044-35d55d5fa919"

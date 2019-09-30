@@ -41,11 +41,6 @@
     <logicalClassDesignerModelHasTypes>
       <class Id="c533ae99-856f-4b2b-85be-aaf2ef1b27b6" name="Memory" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="3bffb18d-4ab2-4582-8233-983dcc3b7d1d" />
-        <ownedAttributesInternal>
-          <property Id="40ef7464-b9a8-4a92-b8cf-22008851fa7d" name="Attribute1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="8cf4c362-6fa2-4bc8-823d-2dd3a70e3f90" />
-          </property>
-        </ownedAttributesInternal>
         <ownedOperationsInternal>
           <operation Id="45afb316-c73f-44e7-bdd9-13d167ed6b24" name="getEnterCode" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <elementDefinition Id="5c892274-181b-428c-a044-35d55d5fa919" />
